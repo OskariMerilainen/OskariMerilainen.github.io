@@ -17,5 +17,7 @@ p {
 }
 
 div {
-    background-color: #8D7D20
+    background-color: #8D7D20;
+    width: 50px;
+    margin: auto;
 }
