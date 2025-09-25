@@ -2,22 +2,66 @@ body {
     background-color: white;
 }
 
-h1 {
+#paaotsikko {
+    
+    position:fixed;
+    top: 20%;
+    left: 5%;
     color: #CC5500;
-    text-align: center;
     font-family: 'Cooper Black';
-    font-size: 72;
+    font-size: 52px;
 }
 
 p {
     color: #643420;
-    text-align: center;
+    position:fixed;
+    top: 35%;
+    left: 40%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40;
+    font-size: 20px;
 }
 
-div {
-    background-color: #8D7D20;
-    width: 50px;
-    margin: auto;
+#index {
+    background-color:#8D7D20;
+    font-size: 26px;
+    position: fixed;
+    left: 25%;
+    top:5%;
+    color: black;
+    padding: 8px 8px;
+    border: black;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+}
+
+#menu {
+    background-color:#8D7D20;
+    font-size: 26px;
+    position: fixed;
+    left: 45%;
+    top:5%;
+    color: black;
+    padding: 8px 8px;
+    border: black;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+}
+
+#yhteystieto {
+    background-color:#8D7D20;
+    font-size: 26px;
+    position: fixed;
+    left: 60%;
+    top:5%;
+    color: black;
+    padding: 8px 8px;
+    border: black;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
 }
