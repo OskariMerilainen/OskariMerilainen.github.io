@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    
 }
 
 #paaotsikko {
@@ -21,47 +22,33 @@ p {
     font-size: 20px;
 }
 
-#index {
-    background-color:#8D7D20;
-    font-size: 26px;
-    position: fixed;
-    left: 25%;
-    top:5%;
-    color: black;
-    padding: 8px 8px;
-    border: black;
-    border-radius: 10px;
-    border-width: 10px;
-    border-style: double;
-    border-color: black;
+.nav-grid {
+    display: flex;
+    gap: 80px;
+    padding: 60px;
+    justify-content: center;
+
 }
 
-#menu {
+.nav-grid a {
+    border-radius: 10px;
+    color: black;
     background-color:#8D7D20;
     font-size: 26px;
-    position: fixed;
-    left: 45%;
-    top:5%;
-    color: black;
-    padding: 8px 8px;
-    border: black;
-    border-radius: 10px;
-    border-width: 10px;
-    border-style: double;
-    border-color: black;
+    padding: 8px 20px;
+    border:7px double black;
+    display: grid;   
+
 }
 
-#yhteystieto {
-    background-color:#8D7D20;
-    font-size: 26px;
-    position: fixed;
-    left: 60%;
-    top:5%;
-    color: black;
-    padding: 8px 8px;
-    border: black;
-    border-radius: 10px;
-    border-width: 10px;
-    border-style: double;
-    border-color: black;
+nav a:hover {
+    color:#000000;
+    background-color:#D1BA90;
+
+}
+
+#valittu {
+    background-color:#643420;
+    color: rgb(255, 255, 255);
+    
 }
