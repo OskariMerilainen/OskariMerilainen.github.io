@@ -1,12 +1,9 @@
 body {
     background-color: #D1BA90;
-    
 }
 
 #paaotsikko {
     text-align: center;
-    
-
     color: #CC5500;
     font-family: 'Cooper Black';
     font-size: 52px;
@@ -64,10 +61,3 @@ nav a:hover {
     color: rgb(255, 255, 255);
     
 }
-
-    max-width: 10%;
-    height: 20px;
-    display: block;
-    margin: 0 auto 10px;
-}
-
