@@ -52,3 +52,48 @@ nav a:hover {
     color: rgb(255, 255, 255);
     
 }
+.menu {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+.menu-kohde {
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+
+.menu-kohde {
+    border-bottom: 2px dashed #8D7D20;
+}
+
+.menu-kohde h2 {
+    font-size: 26px;
+    color: #CC5500;
+    margin-bottom: 10px;
+}
+
+.menu-kohde p {
+    font-size: 18px;
+    color: #643420;
+    margin: 5px 0;
+}
+
+.hinta {
+    font-size: 20px;
+    color: #8D7D20;
+    font-weight: bold;
+}
+.hinta-lista {
+    margin: 10px 0 0 20px;
+    color: #643420;
+    font-size: 18px;
+}
+.burger-image {
+    max-width: 10%;
+    height: 20px;
+    display: block;
+    margin: 0 auto 10px;
+}
