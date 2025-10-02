@@ -64,3 +64,10 @@ nav a:hover {
     color: rgb(255, 255, 255);
     
 }
+
+    max-width: 10%;
+    height: 20px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
