@@ -1,13 +1,12 @@
 body {
-    background-color: white;
+    background-color: #D1BA90;
     
 }
 
 #paaotsikko {
+    text-align: center;
     
-    position:fixed;
-    top: 20%;
-    left: 5%;
+
     color: #CC5500;
     font-family: 'Cooper Black';
     font-size: 52px;
@@ -15,11 +14,21 @@ body {
 
 p {
     color: #643420;
-    position:fixed;
-    top: 35%;
-    left: 40%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.viiva {
+    border: 3px #643420;
+    border-radius: 1px;
+    border-style: solid;
+}
+
+.etusivunkuva {
+    width: 600px;
+    border: 2px #643420;
+    border-radius: 1px;
+    border-style: solid;
 }
 
 .nav-grid {
@@ -34,16 +43,19 @@ p {
     border-radius: 10px;
     color: black;
     background-color:#8D7D20;
-    font-size: 20px;
+    font-size: 30px;
     padding: 8px 20px;
     border:7px double black;
     display: grid;   
-
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 nav a:hover {
     color:#000000;
-    background-color:#D1BA90;
+    background-color:beige;
 
 }
 
