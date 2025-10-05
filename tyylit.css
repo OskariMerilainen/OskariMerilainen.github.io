@@ -1,12 +1,33 @@
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .etusivulaatikko1 #etusivunkuva {
+        width: 338px;
+        border: none;
+    }
+    .nav-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 body {
     background-color: #D1BA90;
+    margin: auto;
+}
+
+body {
+    background-color: #D1BA90;
+    margin: auto;
 }
 
 #paaotsikko {
     text-align: center;
     color: #CC5500;
     font-family: 'Cooper Black';
-    font-size: 52px;
+    font-size: 46px;
 }
 
 p {
@@ -31,7 +52,6 @@ h3 {
 
 .viiva {
     border: 3px #643420;
-    border-radius: 1px;
     border-style: solid;
 }
 
@@ -91,7 +111,7 @@ h3 {
 
 footer{
     background-color:#643420;
-    border-top: 50px solid #D1BA90;
+    margin-top: 50px;
 }
 
 .footer{
