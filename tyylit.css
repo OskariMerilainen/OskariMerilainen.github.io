@@ -182,13 +182,35 @@ nav a:hover {
 }
 
 /*Yhteystietosivun tyylit*/
-#yhteystiedot {
+.tiedotravintolasta {
 
-    color: #643420;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #CC5500;
+    font-family: 'Cooper Black';
     font-size: 24px;
     text-align: center;
 
+}
+.aukiologrid {
+    background-color: #8d7d2083;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: auto;
+    align-content: center;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.yhteyssivugrid {
+    background-color: #8d7d2083;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: auto;
+    align-content: center;
+    padding-top: 4px;
+    padding-left: 4px;
 }
 
 /*Mobiilisivun säännöt*/
@@ -210,4 +232,5 @@ nav a:hover {
         height: 70px;
         width: 165px;
     }
+
 }
