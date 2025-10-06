@@ -1,45 +1,41 @@
+/*Tekstien muotoilu*/
 body {
     background-color: #D1BA90;
     margin: auto;
 }
-
 body {
     background-color: #D1BA90;
     margin: auto;
 }
-
 #paaotsikko {
     text-align: center;
     color: #CC5500;
     font-family: 'Cooper Black';
     font-size: 46px;
 }
-
 p {
     color: #643420;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 h2 {
     color: #CC5500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     text-align: center;
 }
-
 h3 {
     color: #643420;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     text-align: center;
 }
-
 .viiva {
     border: 3px #643420;
     border-style: solid;
 }
 
+/*Etusivun tyylit*/
 #etusivunkuva {
     width: 800px;
     border-color: #643420;
@@ -47,19 +43,16 @@ h3 {
     border-radius: 1px;
     border-style: solid;
 }
-
 .etusivulaatikko1 {
     display: flex;
     justify-content: center;
 }
-
 .etusivulaatikko2 {
     display: flex;
     justify-content: center;
     max-width: 1000px;
     margin: auto;
 }
-
 .etusivugrid {
     background-color: #8d7d2083;
     border: 10px solid #8d7d2000;
@@ -71,17 +64,14 @@ h3 {
     align-content: center;
     padding-top: 16px;
 }
-
 .etusivugridlaatikko {
     max-width: 500px;
     padding: 5px;
 }
-
 #etusivuhamppari {
     width: 284px;
     border: 5px solid #643420;
 }
-
 #kehote {
     font-size: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -94,11 +84,11 @@ h3 {
     margin: auto;
 }
 
+/*Alatunnisteen tyylit*/
 footer{
     background-color:#643420;
     margin-top: 50px;
 }
-
 .footer{
     width: 100%;
     padding-top: 20px;
@@ -107,27 +97,24 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
-
 .ikonit a{
     background-color:#D1BA90;
     margin: 10px;
 }
-
 .ikonit a i{
     color:#643420;
 }
-
 #footerteksti{
     color:#D1BA90;
     text-align: center;
 }
-
 #sahkoposti{
     color: #D1BA90;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+/*Navigoinnin tyylit*/
 .nav-grid {
     display: flex;
     gap: 80px;
@@ -135,7 +122,6 @@ footer{
     justify-content: center;
 
 }
-
 .nav-grid a {
     border-radius: 10px;
     color: black;
@@ -149,47 +135,41 @@ footer{
     align-items: center;
     text-align: center;
 }
-
 nav a:hover {
     color:#000000;
     background-color:beige;
 
 }
-
 #valittu {
     background-color:#643420;
     color: rgb(255, 255, 255);
     
 
 }
+
+/*Ruokalistan tyylit*/
 .menu {
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
 }
-
 .menu-kohde {
     margin-bottom: 30px;
     padding: 15px;
 }
-
-
 .menu-kohde {
     border-bottom: 2px dashed #8D7D20;
 }
-
 .menu-kohde h2 {
     font-size: 26px;
     color: #CC5500;
     margin-bottom: 10px;
 }
-
 .menu-kohde p {
     font-size: 18px;
     color: #643420;
     margin: 5px 0;
 }
-
 .hinta {
     font-size: 20px;
     color: #8D7D20;
@@ -201,6 +181,7 @@ nav a:hover {
     font-size: 18px;
 }
 
+/*Yhteystietosivun tyylit*/
 #yhteystiedot {
 
     color: #643420;
@@ -210,6 +191,7 @@ nav a:hover {
 
 }
 
+/*Mobiilisivun säännöt*/
 @media only screen and (max-width: 600px) {
     .footer {
         display: flex;
